@@ -2,8 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
-    ":assignee(bhattam)",
-    ":reviewer(koradas)"
   ],
   "labels": [
     "renovatebot"
