@@ -1,0 +1,24 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":assignee(bhattam)",
+    ":reviewer(koradas)"
+  ],
+  "labels": [
+    "renovatebot"
+  ],
+
+  "prConcurrentLimit": 10,
+  "schedule": [
+    "before 7am on Friday",
+  ],
+  "branchConcurrentLimit": 2,
+  "rebaseWhen": "behind-base-branch",
+
+  "major": {
+    "enabled": false
+  },
+
+
+}
